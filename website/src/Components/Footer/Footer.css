@@ -1,0 +1,31 @@
+.footer {
+  margin: 10px auto;
+  border-top: 1px solid var(--gray-color);
+
+  ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+}
+
+.footer ul li:hover {
+  color: var(--blue-color);
+}
+
+/*-------- media query ---------*/
+
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+
+    li {
+      margin: 10px;
+    }
+    ul {
+      margin-top: 10pz;
+    }
+  }
+}
